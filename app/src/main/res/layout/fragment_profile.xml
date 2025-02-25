@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/perfil_imagen"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/profile_pic"
+            app:civ_border_width="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_username" />
+
+        <Button
+            android:id="@+id/btn_cambiar_imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/primaryContainer"
+            android:text="@string/cambiar_imagen_btn"
+            android:textColor="@color/onPrimaryContainer"
+            app:icon="@drawable/baseline_edit_24"
+            app:iconTint="@color/onPrimaryContainer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/perfil_imagen" />
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/title_label"
+            android:textAlignment="center"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titulo" />
+
+        <Button
+            android:id="@+id/btn_add_category"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/secondaryContainer"
+            android:text="@string/add_categoria_btn"
+            android:textAlignment="textStart"
+            android:textColor="@color/onSecondaryContainer"
+            android:textSize="14sp"
+            app:icon="@drawable/category"
+            app:iconTint="@color/onSecondaryContainer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_apartado_categorias" />
+
+        <Button
+            android:id="@+id/btn_delete_tasks"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/secondaryContainer"
+            android:text="@string/delete_tasks_btn"
+            android:textAlignment="textStart"
+            android:textColor="@color/onSecondaryContainer"
+            android:textSize="14sp"
+            app:icon="@drawable/baseline_delete_outline_24"
+            app:iconTint="@color/onSecondaryContainer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_mostrar_video" />
+
+        <Button
+            android:id="@+id/btn_mostrar_video"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/secondaryContainer"
+            android:text="@string/mostrar_video_btn"
+            android:textAlignment="textStart"
+            android:textColor="@color/onSecondaryContainer"
+            android:textSize="14sp"
+            app:icon="@drawable/baseline_question_mark_24"
+            app:iconTint="@color/onSecondaryContainer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_apartado_tareas" />
+
+        <TextView
+            android:id="@+id/tv_apartado_categorias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/apartado_categorias_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/btn_add_category"
+            app:layout_constraintTop_toBottomOf="@+id/btn_cambiar_imagen" />
+
+        <TextView
+            android:id="@+id/tv_apartado_cuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/apartado_cuenta_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btn_add_category"
+            app:layout_constraintTop_toBottomOf="@+id/btn_delete_tasks" />
+
+        <TextView
+            android:id="@+id/tv_apartado_cuenta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/apartado_cuenta_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/btn_add_category"
+            app:layout_constraintTop_toBottomOf="@+id/btn_delete_tasks" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/secondaryContainer"
+            android:text="@string/logout_btn"
+            android:textAlignment="textStart"
+            android:textColor="@color/onSecondaryContainer"
+            android:textSize="14sp"
+            app:icon="@drawable/logout"
+            app:iconTint="@color/onSecondaryContainer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btn_delete_tasks"
+            app:layout_constraintStart_toStartOf="@+id/tv_apartado_cuenta"
+            app:layout_constraintTop_toBottomOf="@+id/tv_apartado_cuenta" />
+
+        <TextView
+            android:id="@+id/tv_apartado_tareas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/apartado_tareas_label"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/btn_add_category"
+            app:layout_constraintTop_toBottomOf="@+id/btn_add_category" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TaskList</string>
+    <!-- MENU-->
+    <string name="home_item_menu">Inicio</string>
+    <string name="compass_item_menu">Brújula</string>
+    <string name="map_item_menu">Mapa</string>
+    <string name="profile_item_menu">Perfil</string>
+
+    <!-- LOGIN-->
+    <string name="login_label">Login</string>
+    <string name="email_hint">Correo</string>
+    <string name="pass_hint">Contraseña</string>
+    <string name="signup_btn">Regístrate</string>
+    <string name="login_btn">Login</string>
+
+    <!-- SIGN UP-->
+    <string name="signup_label">Registrarse</string>
+    <string name="name_hint">Nombre</string>
+    <string name="cancel_btn">Cancelar</string>
+
+    <!-- MENU TASKS -->
+
+    <!-- MENU PROFILE -->
+    <string name="title_label">Perfil</string>
+    <string name="cambiar_imagen_btn">Cambiar foto perfil</string>
+
+    <string name="apartado_categorias_label">Categorías</string>
+    <string name="add_categoria_btn">Mis categorías</string>
+
+    <string name="apartado_tareas_label">Tareas</string>
+    <string name="mostrar_video_btn">Mostrar tutorial</string>
+    <string name="delete_tasks_btn">Borrar todas mis tareas</string>
+
+    <string name="apartado_cuenta_label">Gestionar tu cuenta</string>
+    <string name="delete_account_btn">Borrar mi cuenta</string>
+    <string name="logout_btn">Cerrar sesión</string>
+
+    <!-- ADD CATEGORIA MENU-->
+    <string name="add_category_hint">Nombre categoría</string>
+    <string name="back_btn">Volver</string>
+
+    <!-- CAMBIAR IMAGE ACTIVITY-->
+    <string name="search_image">Buscar imágen</string>
+
+    <!-- ADD TASK -->
+    <string name="label_title_add_task">Nueva tarea</string>
+    <string name="add_tarea_et_nombre">Nombre tarea</string>
+    <string name="add_task_btn">Nombre</string>
+    <string name="prioridad_cb">Prioridad alta</string>
+    <string name="rb_website_add_task">Página web</string>
+    <string name="rb_map_add_task">Localización</string>
+    <string name="send_btn">Enviar</string>
+    <string name="extras_label">Actualmente no se ha agregado ningún extra</string>
+</resources>

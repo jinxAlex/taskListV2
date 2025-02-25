@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Material Colors-->
+    <color name="primary">#6750A4</color>
+    <color name="onPrimary">#FFFFFFFF</color>
+
+    <color name="primaryContainer">#EADDFF</color>
+    <color name="onPrimaryContainer">#4F378B</color>
+
+    <color name="secondary">#625B71</color>
+    <color name="onSecondary">#FFFFFFFF</color>
+
+    <color name="secondaryContainer">#E8DEF8</color>
+    <color name="onSecondaryContainer">#4A4458</color>
+
+    <color name="tertiary">#7D5260</color>
+    <color name="onTertiary">#FFFFFF</color>
+
+    <color name="tertiaryContainer">#FFD8E4</color>
+    <color name="onTertiaryContainer">#633B48</color>
+
+</resources>
